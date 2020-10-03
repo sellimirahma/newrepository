@@ -1,0 +1,144 @@
+
+body{
+background-image: url("https://pub-static.fotor.com/static/web/site/features/backgrounds/images/Fotor-wall-background-image-6.jpg" );
+height:100%;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+  color:black;
+  padding: 30px;
+  text-align: center;
+    font-family: courier;
+  font-size:250%;
+
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 10px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 30px;
+  text-align: center;
+    font-family: courier;
+  font-size:120%;
+  color:black;
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+button.btn{
+  color:red;
+  border:red;
+  font-size:30px;
+  background-color:black
+}
+button.btn:hover{
+  background-color:red
+  color:red;
+}
+div.cl{
+  text-align: center;
+}
+
+p.para{
+    display:block;
+font-size:30px;
+font-weight:30px;
+height:40px;
+margin-block-end:100px;
+margin-block-start:100px;
+margin-inline-end:100px;
+margin-inline-start:300px;
+opacity: 1;
+padding-top: 50px;
+font-family:monospace;
+border:10px gray;
+padding:5px;
+width:400px;
+color:red;
+}
+ button.btt{
+  border-radius:50px;
+  color:white;
+  border: 40px black;
+  background-color:red;
+ }
+ button.btt:hover{
+  background-color: blue;
+ }
